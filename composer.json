@@ -1,0 +1,26 @@
+{
+    "name": "techworker/cryptocurrency",
+    "authors": [
+        {
+            "name": "Techworker",
+            "email": "benjaminansbach@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "ext-bcmath": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Techworker\\CryptoCurrency\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Techworker\\CryptoCurrency\\Tests\\": "tests/"
+        }
+    }
+}

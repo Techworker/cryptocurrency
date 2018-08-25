@@ -1,0 +1,13 @@
+<phpunit bootstrap="./vendor/autoload.php" colors="true">
+    <testsuite name="crypto">
+        <directory>tests</directory>
+    </testsuite>
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">./src</directory>
+        </whitelist>
+    </filter>
+    <php>
+        <ini name="display_errors" value="true"/>
+    </php>
+</phpunit>
