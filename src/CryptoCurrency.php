@@ -226,10 +226,10 @@ abstract class CryptoCurrency
     public function lt(self $value): bool
     {
         return \bccomp(
-            $this->value,
-            $value->value,
-            $this->getUnitPow(static::getBaseUnit())
-        ) < 0;
+                $this->value,
+                $value->value,
+                $this->getUnitPow(static::getBaseUnit())
+            ) < 0;
     }
 
     /**
@@ -243,10 +243,10 @@ abstract class CryptoCurrency
     public function gt(self $value): bool
     {
         return \bccomp(
-            $this->value,
-            $value->value,
-            $this->getUnitPow(static::getBaseUnit())
-        ) > 0;
+                $this->value,
+                $value->value,
+                $this->getUnitPow(static::getBaseUnit())
+            ) > 0;
     }
 
     /**
@@ -260,10 +260,10 @@ abstract class CryptoCurrency
     public function gteq(self $value): bool
     {
         return \bccomp(
-            $this->value,
-            $value->value,
-            $this->getUnitPow(static::getBaseUnit())
-        ) >= 0;
+                $this->value,
+                $value->value,
+                $this->getUnitPow(static::getBaseUnit())
+            ) >= 0;
     }
 
     /**
@@ -277,10 +277,10 @@ abstract class CryptoCurrency
     public function lteq(self $value): bool
     {
         return \bccomp(
-            $this->value,
-            $value->value,
-            $this->getUnitPow(static::getBaseUnit())
-        ) <= 0;
+                $this->value,
+                $value->value,
+                $this->getUnitPow(static::getBaseUnit())
+            ) <= 0;
     }
 
     /**
@@ -293,10 +293,10 @@ abstract class CryptoCurrency
     public function eq(self $value): bool
     {
         return \bccomp(
-            $this->value,
-            $value->value,
-            $this->getUnitPow(static::getBaseUnit())
-        ) === 0;
+                $this->value,
+                $value->value,
+                $this->getUnitPow(static::getBaseUnit())
+            ) === 0;
     }
 
     /**
@@ -310,10 +310,10 @@ abstract class CryptoCurrency
     public function neq(self $value): bool
     {
         return \bccomp(
-            $this->value,
-            $value->value,
-            $this->getUnitPow(static::getBaseUnit())
-        ) !== 0;
+                $this->value,
+                $value->value,
+                $this->getUnitPow(static::getBaseUnit())
+            ) !== 0;
     }
 
     /**

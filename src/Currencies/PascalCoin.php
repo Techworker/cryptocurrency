@@ -21,6 +21,7 @@ use Techworker\CryptoCurrency\CryptoCurrency;
 class PascalCoin extends CryptoCurrency
 {
     public const PASC = ['PASC', 4, 'Pascal'];
+    public const MOLINA = ['MOL', 0, 'Molina'];
 
     public static function getBaseUnit(): array
     {
@@ -30,6 +31,7 @@ class PascalCoin extends CryptoCurrency
     public static function getUnits(): array
     {
         return [
+            self::MOLINA,
             self::PASC,
         ];
     }
