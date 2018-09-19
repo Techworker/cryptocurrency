@@ -27,7 +27,7 @@ class Nano extends CryptoCurrency
 
     public static function getBaseUnit(): array
     {
-        return self::RAW;
+        return self::NANO;
     }
 
     public static function getUnits(): array

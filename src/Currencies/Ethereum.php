@@ -38,7 +38,7 @@ class Ethereum extends CryptoCurrency
     public const MILLI = ['milli', 15, 'Milli'];
     public const MILLIETHER = ['milliether', 15, 'Milli ether'];
     public const FINNEY = ['finney', 15, 'Finney'];
-    public const ETH = ['eth', 18, 'Ether'];
+    public const ETH = ['ETH', 18, 'Ether'];
     public const GRAND = ['grand', 21, 'Grand'];
     public const KETHER = ['kether', 21, 'Kether'];
     public const METHER = ['mether', 24, 'Mether'];
